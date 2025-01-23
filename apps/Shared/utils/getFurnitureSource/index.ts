@@ -1,0 +1,1 @@
+export { getFurnitureSource } from './getFurnitureSource';

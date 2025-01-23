@@ -1,0 +1,31 @@
+export enum Fonts {
+  // Cairo fonts
+  Cairo900 = 'Cairo-Black.ttf', // 900 (Black)
+  Cairo700 = 'Cairo-Bold.ttf', // 700 (Bold)
+  Cairo800 = 'Cairo-ExtraBold.ttf', // 800 (ExtraBold)
+  Cairo200 = 'Cairo-ExtraLight.ttf', // 200 (ExtraLight)
+  Cairo300 = 'Cairo-Light.ttf', // 300 (Light)
+  Cairo500 = 'Cairo-Medium.ttf', // 500 (Medium)
+  Cairo400 = 'Cairo-Regular.ttf', // 400 (Regular)
+  Cairo600 = 'Cairo-SemiBold.ttf', // 600 (SemiBold)
+
+  // Inter fonts
+  Inter900 = 'Inter-Black.ttf', // 900 (Black)
+  Inter900Italic = 'Inter-BlackItalic.ttf', // 900 (Black Italic)
+  Inter700 = 'Inter-Bold.ttf', // 700 (Bold)
+  Inter700Italic = 'Inter-BoldItalic.ttf', // 700 (Bold Italic)
+  Inter800 = 'Inter-ExtraBold.ttf', // 800 (ExtraBold)
+  Inter800Italic = 'Inter-ExtraBoldItalic.ttf', // 800 (ExtraBold Italic)
+  Inter200 = 'Inter-ExtraLight.ttf', // 200 (ExtraLight)
+  Inter200Italic = 'Inter-ExtraLightItalic.ttf', // 200 (ExtraLight Italic)
+  Inter400Italic = 'Inter-Italic.ttf', // 400 (Italic)
+  Inter300 = 'Inter-Light.ttf', // 300 (Light)
+  Inter300Italic = 'Inter-LightItalic.ttf', // 300 (Light Italic)
+  Inter500 = 'Inter-Medium.ttf', // 500 (Medium)
+  Inter500Italic = 'Inter-MediumItalic.ttf', // 500 (Medium Italic)
+  Inter400 = 'Inter-Regular.ttf', // 400 (Regular)
+  Inter600 = 'Inter-SemiBold.ttf', // 600 (SemiBold)
+  Inter600Italic = 'Inter-SemiBoldItalic.ttf', // 600 (SemiBold Italic)
+  Inter100 = 'Inter-Thin.ttf', // 100 (Thin)
+  Inter100Italic = 'Inter-ThinItalic.ttf', // 100 (Thin Italic)
+}

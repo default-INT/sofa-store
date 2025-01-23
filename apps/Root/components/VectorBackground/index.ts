@@ -1,0 +1,1 @@
+export { VectorBackground } from './VectorBackground';

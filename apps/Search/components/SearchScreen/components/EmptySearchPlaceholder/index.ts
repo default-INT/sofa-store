@@ -1,0 +1,1 @@
+export { EmptySearchPlaceholder } from './EmptySearchPlaceholder';

@@ -20,7 +20,7 @@ module.exports = {
           '.json',
         ],
         alias: {
-          '@root': path.resolve(__dirname, './src'),
+          '@root': path.resolve(__dirname, './apps'),
         },
       },
     ],

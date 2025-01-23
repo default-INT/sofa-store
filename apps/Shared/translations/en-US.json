@@ -1,0 +1,129 @@
+{
+  "root": {
+    "welcome": "Welcome",
+    "go_to_home": "Go to home"
+  },
+  "header": {
+    "home": {
+      "title": "Sofa Store",
+      "tabs": "Sofa Store",
+      "search": "Search",
+      "orders": "Orders",
+      "profile": "Profile",
+    },
+    "tabs": {
+      "title": "Sofa Store"
+    },
+    "search": {
+      "title": "Search"
+    },
+    "orders": {
+      "title": "Orders"
+    },
+    "profile": {
+      "title": "Profile"
+    },
+    "cart": {
+      "title": "Shopping cart"
+    },
+    "order-details": {
+      "title": "Orders"
+    },
+    "reservation": {
+      "title": "Reservations"
+    },
+    "success": {
+      "title": "Reservations"
+    },
+    "ordering-information": {
+      "title": "Ordering information"
+    }
+  },
+  "cart": {
+    "empty_placeholder": "Look here for any chairs you may need",
+    "summary": {
+      "amount_of_goods": "Amount of goods",
+      "shipping_fee": "Shipping Fee",
+      "total_payment": "Total Payment",
+      "place_an_order": "Place an order"
+    }
+  },
+  "user_info_form": {
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email"
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Enter address"
+      }
+    }
+  },
+  "ordering_information": {
+    "submit": "Save"
+  },
+  "profile": {
+    "default_display_name": "Add your name",
+    "form": {
+      "avatar": {
+        "change": "Change"
+      },
+      "name": {
+        "placeholder": "Enter your name"
+      },
+      "submit": "Save",
+      "errors": {
+        "catch": {
+          "title": "Error",
+          "message": "Something went wrong..."
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "ordering_information": "Ordering information",
+      "privacy_policy": "Privacy Policy",
+      "developer_website": "Developer website",
+      "terms_of_use": "Terms of use"
+    }
+  },
+  "search": {
+    "fields": {
+      "search": {
+        "placeholder": "Search products..."
+      }
+    },
+    "empty_search": "Look here for any chairs you may need"
+  },
+  "orders": {
+    "card": {
+      "total_payment": "Total Payment"
+    }
+  },
+  "reservation": {
+    "submit": "Reservations"
+  },
+  "success": {
+    "placeholder_title": "Order successfully placed! Go back to the menu.",
+    "back_to_menu": "Back to menu"
+  },
+  "tabs": {
+    "home": "Home",
+    "search": "Search",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "common": {
+    "dollars_val": "${{value}}",
+    "errors": {
+      "required": "Field is required",
+      "max_100": "Field cannot exceed 100 characters",
+      "email": "Enter a valid email address"
+    }
+  }
+}

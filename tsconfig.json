@@ -32,7 +32,8 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "@root/*": ["./src/*"]
+      "@root/*": ["./apps/*"],
+      "@root": ["./apps"]
     }
   },
   "exclude": [

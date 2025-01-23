@@ -1,0 +1,1 @@
+export { TabBottomNavigator } from './TabBottomNavigator';

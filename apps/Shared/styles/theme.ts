@@ -1,0 +1,21 @@
+export const theme = {
+  tabInactive: '#29292999',
+  secondary: '#2C2C2C',
+  primary: '#55A8A1',
+  primaryDark: '#3F7C77',
+  tabActive: '#525354',
+  defaultTextColor: '#000',
+  dangerousRegular: '#f64646',
+  white: '#fff',
+  transparent: 'transparent',
+  borderDefault: '#DEDEDE',
+  placeholder: '#B7B7B7',
+  separator: '#9C9C9C',
+  rateStar: '#FDCC33',
+  primarySeparator: '#505050',
+  sections: {
+    privacyPolicy: '#06C613',
+    developerWebsite: '#00AEFF',
+    termsOfUse: '#F94007',
+  },
+};
