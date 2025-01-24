@@ -1,6 +1,6 @@
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Linking, ScrollView, StyleSheet, View } from 'react-native';
+import { Linking, Platform, ScrollView, StyleSheet, View } from 'react-native';
 import { baseStyles } from '@root/Shared/styles/baseStyles';
 import { Text } from '@root/Shared/components/Text';
 import { OpacityPressable } from '@root/Shared/components/OpacityPressable';
@@ -22,6 +22,7 @@ export const ProfileScreen = memo(() => {
     const isSupported = await Linking.canOpenURL(link);
 
     if (isSupported) return Linking.openURL(link);
+    if (Platform.OS === 'android') return Linking.openURL(link);
   }, []);
 
   const handleMoveToUserInfo = useCallback(() => {
